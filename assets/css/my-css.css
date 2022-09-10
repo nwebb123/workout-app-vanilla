@@ -1,0 +1,50 @@
+header {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+
+.header-bg {
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(/assets/imgs/weights-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+
+section {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+section h2 {
+    padding-top: 3rem;
+    padding-bottom:1rem;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+hr.divider {
+    height: 0.3rem;
+    max-width: 5rem;
+    margin: 0rem auto 1rem;
+    background-color: #f4623a;
+    opacity: 1;
+    
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: hsl(13,68%,52%);
+    border-color:hsl(13,68%,52%);
+    border-radius: 3rem;
+    align-items:center
+}
+
+
+about-table {
+    font-size: 1rem;
+}
+ 
