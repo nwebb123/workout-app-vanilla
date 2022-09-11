@@ -40,12 +40,17 @@ window.addEventListener('DOMContentLoaded', event => {
 });
 
 // Toggle display of tables in Generate Workout section
+
+//Grab elements to work with
 const pushWorkoutBtn = document.getElementById("pushBtn");
 const pushTable = document.getElementById("push-table-wrapper");
-//const pullTable = document.getElementById("pull-table-wrapper");
-//const legsTable = document.getElementById("legs-table-wrapper");
-//const absTable = document.getElementById("abs-table-wrapper");
-//const cardioTable = document.getElementById("legs-table-wrapper");
+
+const pullWorkoutBtn = document.getElementById("pullBtn");
+const pullTable = document.getElementById("pull-table-wrapper");
+
+const legsWorkoutBtn = document.getElementById("legsBtn");
+const legsTable = document.getElementById("legs-table-wrapper");
+
 
 const toggleTableDisplay = (tableElement) => {
     tableElement.style.display === 'block' ?
@@ -53,12 +58,15 @@ const toggleTableDisplay = (tableElement) => {
     tableElement.style.display = 'block';
 }
 
-// pushWorkoutBtn.addEventListener("click", () => {
-//     pushTable.style.display === 'block' ?
-//     pushTable.style.display = 'none' :
-//     pushTable.style.display = 'block';
-// })
-
 pushWorkoutBtn.addEventListener("click", () => {
     toggleTableDisplay(pushTable);
 });
+
+pullWorkoutBtn.addEventListener("click", () => {
+    toggleTableDisplay(pullTable);
+});
+
+legsWorkoutBtn.addEventListener("click", () => {
+    toggleTableDisplay(legsTable);
+});
+
