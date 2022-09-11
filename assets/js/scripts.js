@@ -1,9 +1,8 @@
-
 /*!
-* Start Bootstrap - Scrolling Nav v5.0.5 (https://startbootstrap.com/template/scrolling-nav)
-* Copyright 2013-2022 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-scrolling-nav/blob/master/LICENSE)
-*/
+ * Start Bootstrap - Scrolling Nav v5.0.5 (https://startbootstrap.com/template/scrolling-nav)
+ * Copyright 2013-2022 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
 //
 // Scripts
 // 
@@ -21,7 +20,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
     // Collapse responsive navbar when toggler is visible
     const navbarToggler = document.body.querySelector('.navbar-toggler');
-    
+
     /*
     Variable responsiveNavItems is an array of elements with id & class of #navbarResponsive and .nav-link .
     From there, each element in the array is given an on-click event listener that 
@@ -40,3 +39,26 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
+// Toggle display of tables in Generate Workout section
+const pushWorkoutBtn = document.getElementById("pushBtn");
+const pushTable = document.getElementById("push-table-wrapper");
+//const pullTable = document.getElementById("pull-table-wrapper");
+//const legsTable = document.getElementById("legs-table-wrapper");
+//const absTable = document.getElementById("abs-table-wrapper");
+//const cardioTable = document.getElementById("legs-table-wrapper");
+
+const toggleTableDisplay = (tableElement) => {
+    tableElement.style.display === 'block' ?
+    tableElement.style.display = 'none' :
+    tableElement.style.display = 'block';
+}
+
+// pushWorkoutBtn.addEventListener("click", () => {
+//     pushTable.style.display === 'block' ?
+//     pushTable.style.display = 'none' :
+//     pushTable.style.display = 'block';
+// })
+
+pushWorkoutBtn.addEventListener("click", () => {
+    toggleTableDisplay(pushTable);
+});
