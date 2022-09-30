@@ -1,12 +1,6 @@
-/*!
- * Start Bootstrap - Scrolling Nav v5.0.5 (https://startbootstrap.com/template/scrolling-nav)
- * Copyright 2013-2022 Start Bootstrap
- * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-scrolling-nav/blob/master/LICENSE)
- */
-//
-// Scripts
-// 
+'use strict';
 
+//Default BS scroll behavior
 window.addEventListener('DOMContentLoaded', event => {
 
     // Activate Bootstrap scrollspy on the main nav element
@@ -39,34 +33,8 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
-// Toggle display of tables in Generate Workout section
-
-//Grab elements to work with
-const pushWorkoutBtn = document.getElementById("pushBtn");
-const pushTable = document.getElementById("push-table-wrapper");
-
-const pullWorkoutBtn = document.getElementById("pullBtn");
-const pullTable = document.getElementById("pull-table-wrapper");
-
-const legsWorkoutBtn = document.getElementById("legsBtn");
-const legsTable = document.getElementById("legs-table-wrapper");
 
 
-const toggleTableDisplay = (tableElement) => {
-    tableElement.style.display === 'block' ?
-    tableElement.style.display = 'none' :
-    tableElement.style.display = 'block';
-}
 
-pushWorkoutBtn.addEventListener("click", () => {
-    toggleTableDisplay(pushTable);
-});
 
-pullWorkoutBtn.addEventListener("click", () => {
-    toggleTableDisplay(pullTable);
-});
-
-legsWorkoutBtn.addEventListener("click", () => {
-    toggleTableDisplay(legsTable);
-});
 

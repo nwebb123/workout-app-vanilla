@@ -45,7 +45,6 @@ const pushExercises = {
         },
        
     ],
-
     triceps: [
         // Tricep Exercises
         {
@@ -73,14 +72,27 @@ const pushExercises = {
     ]
 }
 
-//Initializing variables that will be used to populate table for Push Day
-let randomChestExercise1;
-let randomChestExercise2;
-let randomChestExercise3;
 
-let randomTricepExercise1;
-let randomTricepExercise2;
-let randomTricepExercise3;
+
+export {pushExercises};
+
+
+
+
+
+
+//Initializing variables that will be used to populate table for Push Day
+// let randomChestExercise1;
+// let randomChestExercise2;
+// let randomChestExercise3;
+
+// let randomTricepExercise1;
+// let randomTricepExercise2;
+// let randomTricepExercise3;
+
+
+
+
 
 
 

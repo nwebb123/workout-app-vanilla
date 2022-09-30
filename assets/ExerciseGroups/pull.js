@@ -50,13 +50,4 @@ const pullExercises = {
     ]
 }
 
-
-//Initializing variables that will be used to populate table for Pull Day
-let randomBackExercise1;
-let randomBackExercise2;
-let randomBackExercise3;
-
-let randomBicepsExercise1;
-let randomBicepsExercise2;
-let randomBicepsExercise3;
-
+export {pullExercises};

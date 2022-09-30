@@ -40,11 +40,4 @@ const legExercises = {
     ]
 }
 
-
-//Initializing variables that will be used to populate table for Legs Day
-let randomLegExercise1;
-let randomLegExercise2;
-let randomLegExercise3;
-let randomLegExercise4;
-let randomLegExercise5;
-
+export {legExercises};

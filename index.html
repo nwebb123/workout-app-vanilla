@@ -130,27 +130,27 @@
                                             <tbody>
                                                 <tr>
                                                     <th scope="row">1</th>
-                                                    <td>Wide Grip Pullup</td>
+                                                    <td id="rCE1"></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">2</th>
-                                                    <td>Pullup</td>
+                                                    <td id="rTE1"></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">3</th>
-                                                    <td>Cable Row</td>
+                                                    <td id="rCE2"></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">4</th>
-                                                    <td>DB Curl</td>
+                                                    <td id="rTE2"></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">5</th>
-                                                    <td>Lat Pulldown</td>
+                                                    <td id="rCE3"></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">6</th>
-                                                    <td>EZ Bar Curl</td>
+                                                    <td id="rTE3"></td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -189,27 +189,27 @@
                                             <tbody>
                                                 <tr>
                                                     <th scope="row">1</th>
-                                                    <td>Wide Grip Pullup</td>
+                                                    <td id="rBackE1"></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">2</th>
-                                                    <td>Pullup</td>
+                                                    <td id="rBicepE1"></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">3</th>
-                                                    <td>Cable Row</td>
+                                                    <td id="rBackE2"></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">4</th>
-                                                    <td>DB Curl</td>
+                                                    <td id="rBicepE2"></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">5</th>
-                                                    <td>Lat Pulldown</td>
+                                                    <td id="rBackE3"></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">6</th>
-                                                    <td>EZ Bar Curl</td>
+                                                    <td id="rBicepE3"></td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -248,27 +248,23 @@
                                             <tbody>
                                                 <tr>
                                                     <th scope="row">1</th>
-                                                    <td>Wide Grip Pullup</td>
+                                                    <td id="rLE1"></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">2</th>
-                                                    <td>Pullup</td>
+                                                    <td id="rLE2"></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">3</th>
-                                                    <td>Cable Row</td>
+                                                    <td id="rLE3"></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">4</th>
-                                                    <td>DB Curl</td>
+                                                    <td id="rLE4"></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">5</th>
-                                                    <td>Lat Pulldown</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">6</th>
-                                                    <td>EZ Bar Curl</td>
+                                                    <td id="rLE5"></td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -315,13 +311,22 @@
             <p class="m-0 text-center text-white">Copyright &copy; Your Website 2022</p>
         </div>
     </footer>
+
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script> <!-- Core theme JS-->
-    <script src="assets/js/scripts.js"></script>
+    </script>
 
-    <script></script>
+
+    <!-- Lodash library-->
+    <script src="/assets/js/lodash.js"></script>
+
+    <script type="module" src="/assets/js/main.js"></script>
+
+    <script type="module" src="assets/ExerciseGroups/push.js"></script>
+    <script type="module" src="assets/ExerciseGroups/pull.js"></script>
+    <script type="module" src="assets/ExerciseGroups/legs.js"></script>
+
     <!-- <script>
         $(document).ready(function () {
             $(".navbar-nav li a").click(function (event) {
@@ -329,6 +334,7 @@
             });
         });
     </script> -->
+
 
 </body>
 
